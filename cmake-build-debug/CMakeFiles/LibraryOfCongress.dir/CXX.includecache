@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/Book.h
+string
+-
+
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/BookShelf.cpp
+BookShelf.h
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/BookShelf.h
+
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/BookShelf.h
+Book.h
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/Book.h
+
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/Library.cpp
+iostream
+-
+Book.h
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/Book.h
+BookShelf.h
+/Users/jonathanyoung/CLionProjects/LibraryOfCongress/BookShelf.h
+
